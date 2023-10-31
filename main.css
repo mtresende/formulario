@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 820px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    padding: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(71, 39, 161);
+}
+
+header h1{
+    color: #fff;
+}
+
+header button{
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    margin-right: 4px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bolder;
+    background-color: #fff;
+}
+
+header button:hover{
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form-cadastro{
+    margin: 24px 24px 24px 0;
+    justify-content: space-between;
+    display: none;
+}
+
+.form-cadastro label{
+    display: block;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 16px;
+}
+
+.form-cadastro input{
+    padding: 6px;
+}
+
+#nome, #email, #endereco{
+    width: 800px;
+}
+
+#telefone, #cpf, #cidade, #estado, #bairro, #cep{
+    width: 390px;
+}
+
+form button{
+    width: 800px;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(5, 145, 5);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-top: 16px;
+}
+
+form button:hover{
+    cursor: pointer;
+    background-color: rgb(38, 201, 38);
+}
+
+label.error{
+    color:red;
+    margin-top: 0;
+    margin-bottom: 4px;
+    font-size: 12;
+    font-style: italic;
+}
